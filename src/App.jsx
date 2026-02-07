@@ -72,7 +72,7 @@ function App() {
       <Header />
 
       {/* Main Content */}
-      <main className="flex-1 flex flex-col items-center justify-center p-4 relative z-10 w-full max-w-md mx-auto">
+      <main className="flex-1 flex flex-col items-center justify-center p-4 relative z-10 w-full max-w-lg mx-auto">
         
         {/* Stage 0 & 1: Ring Box */}
         <div className={`transition-all duration-1000 ${stage === 2 ? 'opacity-0 absolute pointer-events-none' : 'opacity-100'}`}>
